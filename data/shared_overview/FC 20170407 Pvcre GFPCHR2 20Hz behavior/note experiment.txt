@@ -1,0 +1,42 @@
+cond sound 25-27(87-90dB) - 2khz
+cont 8 min
+tone sound 32(82-90dB) - 2kHz
+
+2017-03-14~21
+OIcreS1 - GFP + IN 20Hz stim  -> ok
+OIcreS2 - GFP + IN 20Hz stim  -> high stress (handling) check OFT
+OIcreS3 - GFP + IN 20Hz stim  -> ok
+OIcreS4 - GFP + IN 20Hz stim  -> ok
+OIcreS5 - GFP + IN 20Hz stim  -> FCt saved inFCcont
+OIcreS6 - CH  + IN 20Hz stim* -> high Freez FCc - FCt saved inFCcont)
+OIcreS7 - CH  + IN 20Hz stim* -> high Freez FC
+OIcreS8 - CH  + IN 20Hz stim* -> low Freez FC
+OIcreS9 - CH  + IN 20Hz stim* -> stress?
+OIcreS10 - CH + IN 20Hz stim* -> ok
+OIcreS11 - GFP+ IN Spin stim  -> liter change/active/low frz - FC high late
+OIcreS12 - CH + IN 20Hz stim* -> FC ok -
+OIcreS13 - GFP+ IN Spin stim  -> FCc ok
+OIcreS14 - CH + IN 20Hz stim* -> FCc high?
+
+CH spindle = 8 (OI+OIcreCH) +1 OIcreS11
+GFP 20Hz = 5+(1?)
+CH  20Hz = 5+2
+GFP - spindle = 1+4 (due to inversion issue ?)
+
+
+important important
+original OIcreS11/12 = GFP spind/CH-20Hz
+possible inversion   = CH-spindle/GFP-20hz
+->check induction is only way
+
+
+to add
+OIcreS15 - GFP + IN spin stim
+OIcreS16 - GFP + IN spin stim
+OIcreS17 - GFP + IN spin stim
+OIcreS18 - CH + IN 20Hz stim
+OIcreS19 - CH + IN 20Hz stim
+OIcreS20 - GFP + spin stim
+
+diff batch
+check OIcreCH-10 for spindle stim
